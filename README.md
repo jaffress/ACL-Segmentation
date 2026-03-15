@@ -1,4 +1,4 @@
-# Lab n°2 : Segmentation & ACL — La Forteresse Réseau
+# Segmentation & ACL
 
 ### Auteur : Elif JAFFRES
 
@@ -6,13 +6,13 @@
 
 ## 🛡️ Introduction
 
-Après avoir établi la haute disponibilité avec HSRP, ce second laboratoire transforme l'infrastructure en une "Forteresse". L'objectif est d'appliquer les principes de **Segmentation** et de **Filtrage (ACL)** pour sécuriser les zones sensibles, en accord avec les recommandations de l'ANSSI.
+Après avoir établi la haute disponibilité avec HSRP, ce second lab transforme l'infrastructure en une "Forteresse". L'objectif est d'appliquer les principes de segmentation et de filtrage (ACL) pour sécuriser les zones sensibles, en accord avec les recommandations de l'ANSSI.
 
 ---
 
-## Étape A : Création des Zones (Segmentation)
+## Étape A : Création des Zones
 
-Nous isolons le réseau en trois segments logiques distincts. La passerelle par défaut pour chaque zone est portée par une IP virtuelle (HSRP) sur les commutateurs de Niveau 3.
+Nous isolons le réseau en trois segments logiques distincts. La passerelle par défaut pour chaque zone est portée par une IP virtuelle (HSRP) sur les switches de Niveau 3.
 
 ### 1. Définition des VLANs
 
@@ -53,7 +53,7 @@ interface vlan 30
 ```
 
 ### 3. Configuration du Switch d'Accès (Acces-01)
-Comme ton infrastructure utilise un switch **Acces-01** pour connecter les PCs, il faut mettre à jour l'attribution des ports car les VLANs ont changé (VLAN 20 est maintenant PROD, et VLAN 30 est USERS).
+Comme ton infrastructure utilise un switch Acces-01 pour connecter les PCs, il faut mettre à jour l'attribution des ports car les VLANs ont changé (VLAN 20 est maintenant PROD, et VLAN 30 est USERS).
 
 ```bash
 # Exemple : PC-PROD sur Fa0/1 et PC-USERS sur Fa0/2
