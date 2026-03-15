@@ -119,7 +119,7 @@ D'après ton image, tu as deux PCs. Pour tester la zone **GHOST**, je te conseil
 | Test | Action | Résultat Attendu | Statut |
 | :--- | :--- | :--- | :---: |
 | **Inter-VLAN (Classic)** | Ping USERS (VLAN 30) -> PROD (VLAN 20) | **Succès** (Routage OK) | ✅ |
-| **Règle de Fer** | Ping USERS (VLAN 30) -> GHOST (VLAN 10) | **Échec** (Destination Unreachable) | 🔒 |
+| **Règle** | Ping USERS (VLAN 30) -> GHOST (VLAN 10) | **Échec** (Destination Unreachable) | 🔒 |
 | **Admin Access** | Ping GHOST (VLAN 10) -> PROD (VLAN 20) | **Succès** (Admin libre) | ✅ |
 
 > [!IMPORTANT]
