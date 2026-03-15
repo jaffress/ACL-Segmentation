@@ -4,7 +4,7 @@
 
 ---
 
-## 🛡️ Introduction
+## Introduction
 
 Après avoir établi la haute disponibilité avec HSRP, ce second lab transforme l'infrastructure en une "Forteresse". L'objectif est d'appliquer les principes de segmentation et de filtrage (ACL) pour sécuriser les zones sensibles, en accord avec les recommandations de l'ANSSI.
 
