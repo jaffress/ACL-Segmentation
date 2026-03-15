@@ -1,6 +1,6 @@
 # Segmentation & ACL
 
-### Auteur : Elif JAFFRES
+### Elif JAFFRES
 
 ---
 
