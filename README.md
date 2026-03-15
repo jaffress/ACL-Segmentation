@@ -106,7 +106,7 @@ interface vlan 30
 
 D'après ton image, tu as deux PCs. Pour tester la zone **GHOST**, je te conseille d'ajouter un troisième PC (PC-ADMIN) branché sur **Acces-01** et de le mettre dans le **VLAN 10**.
 
-| Device | VLAN | Port (Exemple) | IP Suggérée |
+| Machines | VLAN | Ports | IPs |
 | :--- | :--- | :--- | :--- |
 | **PC-PROD** | 20 | Fa0/1 | 192.168.20.10 |
 | **PC-USERS** | 30 | Fa0/2 | 192.168.30.10 |
