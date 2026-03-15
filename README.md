@@ -114,7 +114,7 @@ D'après ton image, tu as deux PCs. Pour tester la zone **GHOST**, je te conseil
 
 ---
 
-## 🧪 Tests de Sécurité & Validation
+##  Tests de Sécurité & Validation
 
 | Test | Action | Résultat Attendu | Statut |
 | :--- | :--- | :--- | :---: |
